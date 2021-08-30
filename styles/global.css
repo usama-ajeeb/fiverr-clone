@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .footerText {
+    @apply font-medium text-gray-500;
+  }
+
+  .menuItem {
+    @apply text-lg font-semibold text-[#7A7D85];
+  }
+
+  .footerItemGrid {
+    @apply flex flex-col gap-y-3 text-lg;
+  }
+}
+
+body {
+  background-color: #f7f7f7;
+}
