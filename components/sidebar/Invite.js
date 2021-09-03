@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Switch } from '@headlessui/react'
 
 export const Invite = () => {
-  const [enabled, setEnabled] = useState(false)
+  const [enabled, setEnabled] = useState(true)
   return (
     // <div className='flex items-center justify-around border shadow-md mt-11 py-10 px-7'>
     <div className='grid grid-cols-2 bg-white justify-items-center   border py-7 gap-y-3 w-[440px]  '>

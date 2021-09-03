@@ -4,7 +4,7 @@ import { MenuIcon } from '@heroicons/react/outline'
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-around shadow-md py-7 bg-white'>
+    <div className='flex items-center justify-around border py-7 bg-white'>
       {/* Left */}
       <div className='flex items-center'>
         <MenuIcon className='xl:hidden h-8 text-gray-700' />

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Gig = ({ image, title, price }) => {
   return (
-    <div className='bg-white shadow-2xl'>
+    <div className='bg-white border first:shadow-xl'>
       <div className='relative h-40 '>
         <Image src={image} layout='fill' objectFit='cover' />
       </div>

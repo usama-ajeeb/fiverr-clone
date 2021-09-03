@@ -70,11 +70,10 @@ const Footer = () => {
       <div className='flex justify-between items-center w-[1500px] mx-auto'>
         <div className='flex items-center space-x-7'>
           <h1 className='text-3xl font-extrabold text-gray-500'>
-            Fiverr{' '}
-            <span className=' text-gray-400 font-semibold'>business.</span>
+            Fiverr <span className=' text-gray-400 font-semibold'>clone.</span>
           </h1>
           <p className='text-gray-400 mt-2'>
-            &copy; Fiverr International Ltd. 2021
+            &copy; Fiverr Clone Seotrot. 2021
           </p>
         </div>
         <div className='flex items-center space-x-8'>

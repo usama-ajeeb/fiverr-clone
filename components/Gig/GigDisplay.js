@@ -13,7 +13,7 @@ const GigDisplay = () => {
         {gigData.map(({ image, title, price }) => (
           <Gig key={title} image={image} title={title} price={price} />
         ))}
-        <div className='bg-[#1DBF73] absolute py-2 px-2 -mt-6  rounded-t-sm'>
+        <div className='bg-[#1DBF73] absolute py-2 px-2 -mt-6  rounded-t-[3px]'>
           <p className='text-white font-bold text-sm'>BEST SELLER</p>
         </div>
       </div>
